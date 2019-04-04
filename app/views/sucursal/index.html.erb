@@ -1,0 +1,5 @@
+<ul>
+  <% @sucursal.each do |sucursal| %>
+    <li><%= link_to sucursal.nombre, sucursales_path(sucursal)  %></li>
+  <% end %>
+</ul>
